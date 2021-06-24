@@ -53,6 +53,13 @@ public class Calculator {
 
                     break;
 
+                // case to return modulus two numbers
+                case '%':
+
+                    o = num1 % num2;
+
+                    break;
+
                 default:
 
                     System.out.println("You enter wrong input");
